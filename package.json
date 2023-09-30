@@ -1,0 +1,19 @@
+{
+  "name": "tapdano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boemekeld/tapdano.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boemekeld/tapdano/issues"
+  },
+  "homepage": "https://github.com/boemekeld/tapdano#readme"
+}
