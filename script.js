@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('aki 4');
         const textRecord = event.message.records.find(record => record.recordType === "text");
         alert('aki 5');
+        alert(JSON.stringify(event.message.records));
         if (textRecord) {
           alert('aki 6');
           alert("Dados lidos:", textRecord.data);
