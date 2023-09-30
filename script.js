@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       alert("Escrito com sucesso!");
     } catch (error) {
-      console.error("Falha ao escrever na etiqueta", error);
+      alert("Falha ao escrever na etiqueta", error);
     }
   });
 
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       };
     } catch (error) {
-      console.error("Falha ao ler a etiqueta", error);
+      alert("Falha ao ler a etiqueta", error);
     }
   });
 });
