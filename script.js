@@ -44,6 +44,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   document.querySelector("#writeButton").addEventListener("click", async () => {
     try {
+      alert('write start');
+      await ndef.scan();
       const value = document.getElementById('inputValue').value;
       await write(value);
       alert('write success');
@@ -54,6 +56,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   document.querySelector("#readButton").addEventListener("click", async () => {
     try {
+      alert('read start');
+      await ndef.scan();
       await read();
     } catch (error) {
       alert(error);
