@@ -28,7 +28,8 @@ document.addEventListener('DOMContentLoaded', async () => {
               //alert(`Record type:  ${record.recordType}`);
               //alert(`MIME type:    ${record.mediaType}`);
               //alert(`Record id:    ${record.id}`);
-              alert(serialNumber + ':' + decoder.decode(record.data));
+              //alert(serialNumber + ':' + decoder.decode(record.data));
+              document.getElementById('inputValue').value = decoder.decode(record.data);
             }
             //alert(JSON.stringify(serialNumber));
             resolve();
